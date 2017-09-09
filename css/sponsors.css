@@ -120,6 +120,20 @@ body {
     margin-top: -20%;
 }
 
+.sponsorship-packet {
+    background-color: rbga(255,255,255, 0.7);
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 1%;
+    text-align: center;
+    right: 0;
+    margin-left: 75%;
+    font-family: Avenir;
+    font-size: 25px;
+    margin-top: -6.5%;
+    margin-bottom: 2%;
+}
+
 .navbarlogo-detect {
     height: 100px;
     margin-left:2.3%;
