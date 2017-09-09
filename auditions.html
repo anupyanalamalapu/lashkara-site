@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title> UCD Lashkara </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/auditions.css"/>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'/>
+        <link rel="shortcut icon" href="photos/logo.ico" type="image/x-icon">
+    </head>
+</html>
+<body>
+    <div class="video-background">
+        <div class="video-foreground" id="muteYouTubeVideoPlayer"></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="index.html"><img src="photos/WhiteLogo.png" alt="navbarlogo" class="navbarlogo"></a>
+      <a href="background.html">Background</a>
+      <a href="performances.html">Performances</a>
+      <a href="awards.html">Awards</a>
+      <a href="sponsors.html">Sponsors</a>
+      <a href="auditions.html">Auditions</a>
+      <a href="meattheteam.html">Meet the Team</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+
+    <div>
+        <span onmouseover="openNav()"><img src="photos/WhiteLogo.png" alt="navbarlogo" class="navbarlogo-detect"></span>
+        <h1 class="page-title general-text"> Audition Info </h1>
+    </div>
+    <hr>
+    <div class="center">
+        <div class="black-box general-text">
+          <h2>Check back at the end of September when school starts for more information! Until then, make sure to watch this and get excited for next year :)</h2>
+        </div>
+        <iframe width="840" height="474" src="https://www.youtube.com/embed/lyc4PbnFkug?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script async src="https://www.youtube.com/iframe_api"></script>
+    <script>
+     function onYouTubeIframeAPIReady() {
+      var player;
+      var isUnMuted = false;
+      player = new YT.Player('muteYouTubeVideoPlayer', {
+        videoId: 'lyc4PbnFkug', // YouTube Video ID
+        width: 840,               // Player width (in px)
+        height: 474,              // Player height (in px)
+        playerVars: {
+          autoplay: 1,        // Auto-play the video on load
+          controls: 1,        // Show pause/play buttons in player
+          showinfo: 0,        // Hide the video title
+          modestbranding: 1,  // Hide the Youtube Logo
+          loop: 1,  
+          playlist: 'lyc4PbnFkug',      // Run the video in a loop
+          fs: 0,              // Hide the full screen button
+          cc_load_policy: 0, // Hide closed captions
+          iv_load_poliy: 3,  // Hide the Video Annotations
+          autohide: 0         // Hide video controls when playing
+        },
+        events: {
+          onReady: function(e) {
+            e.target.mute();
+          }
+        }
+      });
+     }
+    </script>
+</body>

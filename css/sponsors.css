@@ -8,11 +8,12 @@ body {
     background: linear-gradient(
                      rgba(0,0,0,0.8), 
                      rgba(0,0,0,0.8)),
-                     url("https://www.youtube.com/watch?v=SkkV6VnG9Nw");
+                     url("../photos/Dard.jpg");
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 * { box-sizing: border-box; }
@@ -94,37 +95,24 @@ body {
     margin-top: 20px;
 }
 
-.remo {
-    margin-top: 6%;
-}
-
-.picture {
+.photo {
     width: 100%;
-    margin-top: 10px;
-    opacity: 0.6;
+    border: 2px solid white;
+    border-radius: 100%;
 }
 
-.picture-2016 {
-    width: 60%;
+.picture-tamasha {
+    width: 80%;
     margin-top: 30px;
     opacity: 0.6;
 }
 
-.left-side {
-    margin-left: 30%;
-}
-
-.right-side {
-    margin-right: 30%;
-}
-
-.inline {
-    display: inline;
+.move-up {
+    margin-top: -3%;
 }
 
 .body-text {
-    text-align: left;
-    margin-left:20%;
+    margin-top: 9%;
 }
 
 .navbarlogo {
@@ -139,12 +127,47 @@ body {
 }
 
 .black-box {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.8);
     text-align: center;
+    margin: 0 10%;
+    padding: 3% 0 50% 0;
 }
 
 .center {
     text-align: center;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
 }
 
 .award-text {
@@ -163,6 +186,15 @@ body {
     color: white;
 }
 
+.first-line {
+    margin-top: 10 !important;
+}
+
+.names {
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
 h1 {
     font-size: 90px;
     margin-right:9%;
@@ -171,5 +203,9 @@ h1 {
 
 h2 {
     font-size: 20px;
-    margin-top: -10px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 30px;
 }
