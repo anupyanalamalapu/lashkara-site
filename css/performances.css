@@ -1,0 +1,122 @@
+body, html {
+    height: 110%;
+}
+
+body { 
+    height: 110%;
+    background: linear-gradient(
+                     rgba(0,0,0,0.7), 
+                     rgba(0,0,0,0.7)),
+                     url("../photos/JhoomtiAward.jpg");
+    /* Center and scale the image nicely */
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: black; /* Black*/
+    opacity: 0.8;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    font-family: Avenir;
+    font-weight: 300;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: gray;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: relative;
+    right: 25px;file:///Users/anupya/Desktop/Lashkara/lashkara-site/awards.html
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.video {
+    text-align: center;
+}
+
+.black-box {
+    background: rgba(0,0,0, 0.8);
+    margin: 1% 10%;
+    padding: 5% 0;
+}
+
+.body-text {
+    text-align: left;
+    margin-left:20%;
+}
+
+.navbarlogo {
+    height: 100px;
+    margin-top: -20%;
+}
+
+.navbarlogo-detect {
+    height: 100px;
+    margin-left:2.3%;
+    margin-top:1.8% ;
+}
+
+.page-title {
+    margin-left: 16%;
+    margin-top: -6.6%;
+    text-align: left;
+}
+
+.general-text {
+    font-family: Avenir;
+    font-weight: 300;
+    color: white;
+}
+
+h1 {
+    font-size: 90px;
+    margin-right:9%;
+    margin-top:1em;
+}
+
+h2 {
+    font-size: 20px;
+    right:0;
+    margin-top: -5px;
+}
+
+h3 {
+    font-size: 30px;
+}
