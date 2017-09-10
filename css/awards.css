@@ -95,7 +95,7 @@ body {
 }
 
 .remo {
-    margin-top: 6%;
+    margin-top: 13%;
 }
 
 .picture {
@@ -106,6 +106,11 @@ body {
 
 .picture-2016 {
     width: 60%;
+    margin-top: 30px;
+    opacity: 0.6;
+}
+.picture-2016-BB {
+    width: 36%;
     margin-top: 30px;
     opacity: 0.6;
 }

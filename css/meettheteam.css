@@ -68,7 +68,7 @@ body {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: relative;
-    right: 25px;file:///Users/anupya/Desktop/Lashkara/lashkara-site/awards.html
+    right: 25px;
     font-size: 36px;
     margin-left: 20px;
 }
@@ -101,10 +101,9 @@ body {
     opacity: 0.8;
 }
 
-.picture-tamasha {
-    width: 80%;
-    margin-top: 30px;
-    opacity: 0.6;
+.picture-team {
+    width: 100%;
+    margin-bottom: 5%;
 }
 
 .inline {

@@ -50,7 +50,7 @@ body {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: relative;
-    right: 25px;file:///Users/anupya/Desktop/Lashkara/lashkara-site/awards.html
+    right: 25px;
     font-size: 36px;
     margin-left: 20px;
 }
@@ -73,8 +73,8 @@ body {
 
 .black-box {
     background: rgba(0,0,0, 0.8);
-    margin: 1% 10%;
     padding: 5% 0;
+    margin-bottom: 2%;
 }
 
 .body-text {

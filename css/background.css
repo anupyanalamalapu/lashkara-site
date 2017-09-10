@@ -13,6 +13,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* The side navigation menu */
@@ -50,9 +51,24 @@ body {
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: relative;
-    right: 25px;file:///Users/anupya/Desktop/Lashkara/lashkara-site/awards.html
+    right: 25px;
     font-size: 36px;
     margin-left: 20px;
+}
+
+.picture-side {
+    margin-top: 8%;
+    width: 140%;
+}
+
+.picture-side-right {
+    margin-top: 8%;
+    width: 140%;
+    margin-left: -40%;
+}
+
+.text {
+    padding-left: 8%;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -102,6 +118,39 @@ body {
 .navbarlogo {
     height: 100px;
     margin-top: -20%;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
 }
 
 .navbarlogo-detect {
