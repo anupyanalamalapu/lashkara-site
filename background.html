@@ -50,7 +50,7 @@
 			<h2 class="general-text">Our performances incorporate jazz, contemporary, hip-hop, and Indian classical dance styles alongside energetic Bollywood choreography and captivating storylines. We aim to fuse together the finest of classical and modern dance forms to bring the best of Bollywood to all audiences.</h2>
 			<h2 class="general-text">As a member of Lashkara, our members grow as dancers, network with fellow dancers nationally and internationally, and perform in front of thousands of people while doing what they love the most.</h2>
 		</div>
-		<div class="col-xs-2">
+		<div class="col-xs-2" id="left-side">
 			<img src="photos/Pritha Sad Jahan.jpg" class="picture-side-right" alt="picture"/>
 			<img src="photos/Savita Finale.jpg" class="picture-side-right" alt="picture"/>
 		</div>
@@ -81,5 +81,16 @@
 		function closeNav() {
 		    document.getElementById("mySidenav").style.width = "0";
 		}
+
+		$(document).ready(function () {
+
+		    $("#lnkCollapse").click(function () {
+		        $("#contentArea").slideToggle("slow");
+		    });
+
+		    $("#lnkClose").click(function () {
+		        $("#contentArea").slideUp(200);
+		    });
+		});
 	</script>
 </body>
