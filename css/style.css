@@ -37,12 +37,22 @@ li {
 li a {
     color: white;
     text-align: center;
-    padding: 18px 3%;
+    padding: 5% 3%;
 }
 
 li a:hover {
     color: gray;
     text-decoration: none;
+}
+
+.logo {
+    width: 275px;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.title {
+    margin-top: -10%;
 }
 
 .homepage-title {
@@ -54,12 +64,12 @@ li a:hover {
 
 h1 {
 	font-size: 100px;
-	margin-right:9%;
+	margin-right:5%;
 	margin-top:1em;
 }
 
 h2 {
 	font-size: 20px;
-	margin-right:10.5%;
+	margin-right:5.5%;
 	margin-top: -10px;
 }
