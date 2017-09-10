@@ -99,6 +99,7 @@ body {
     width: 100%;
     border: 2px solid white;
     border-radius: 100%;
+    vertical-align: middle;
 }
 
 .picture-tamasha {
@@ -149,6 +150,7 @@ body {
 
 .center {
     text-align: center;
+    vertical-align: middle;
 }
 
 .col-xs-15,
