@@ -90,7 +90,7 @@ body {
 }
 
 .body-text {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .picture {
@@ -186,6 +186,6 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 140%;
     margin-right:10.5%;
 }
