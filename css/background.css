@@ -89,6 +89,10 @@ body {
     text-align: left;
 }
 
+.center {
+    text-align: center;
+}
+
 .body-text {
     margin-top: 5px;
 }
@@ -188,4 +192,12 @@ h1 {
 h2 {
     font-size: 19px;
     margin-right:10.5%;
+}
+
+h4 {
+    font-size: 10px;
+}
+
+.second-line {
+    margin-top: -5px;
 }
