@@ -82,6 +82,13 @@ body {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+
+    .black-box {
+        background: rgba(0,0,0,0.8);
+        text-align: center;
+        margin: 0 10%;
+        padding: 5% 0;
+    }
 }
 
 .center-text {
@@ -129,9 +136,8 @@ body {
 .black-box {
     background: rgba(0,0,0,0.8);
     text-align: center;
-    height: 80%;
     margin: 0 10%;
-    padding: 20% 0;
+    padding: 5% 0;
 }
 
 .center {
