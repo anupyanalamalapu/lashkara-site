@@ -120,7 +120,7 @@ and (max-device-width : 480px) {
     position: relative;
     height: 0;
     padding-bottom: 56.25%;
-    margin-top: 13%;
+    margin-top: 3%;
 }
 
 .remo iframe {
