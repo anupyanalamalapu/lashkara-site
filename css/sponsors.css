@@ -2,6 +2,23 @@ body, html {
     height: 110%;
 }
 
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src: url("../fonts/AvenirLTStd-Book.otf"); /* File to be stored at your site */
+  }
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src: url("../fonts/AvenirLTStd-Light.otf"); /* File to be stored at your site */
+  }
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src: url("../fonts/AvenirLTStd-Medium.otf"); /* File to be stored at your site */
+  }
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src: url("../fonts/AvenirLTStd-Roman.otf"); /* File to be stored at your site */
+  }
+
 body { 
     /* The image used */
     min-height: 110%;
@@ -197,7 +214,7 @@ body {
 }
 
 .general-text {
-    font-family: Avenir;
+    font-family: 'AvenirLTStd-Light';
     font-weight: 300;
     color: white;
 }
