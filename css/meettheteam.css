@@ -168,15 +168,15 @@ and (max-device-width : 480px) {
     position: relative;
     height: 0;
     padding-bottom: 56.25%;
-    margin-top: 13%;
+    margin-bottom: -15%;
 }
 
 .vlog iframe {
     position: absolute;
     top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
 }
 
 .col-xs-15,
