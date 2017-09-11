@@ -78,13 +78,18 @@ h2 {
 @media only screen
 and (max-device-width : 480px) {
     .logo {
-        width: 300px;
+        width: 50vw;
         margin-top: 60%;
         margin-left: -480px;
     }
+    .title {
+        margin-top: 2%;
+        margin-left: 50%;
+        display: inline;
+    }
     h1 {
-        font-size: 150px;
-        margin-left: -460px;
+        font-size: 20vw;
+        margin-left: -250px;
     }
     h2 {
         font-size: 25px;
