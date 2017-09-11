@@ -93,19 +93,19 @@ h2 {
 }
 
 @media only screen
-and (max-device-width : 480px) {
+and (max-device-width : 800px) {
     .logo {
-        width: 50vw;
+        width: 40vw;
         margin-top: 60%;
         margin-left: -480px;
     }
     .title {
-        margin-top: 2%;
+        margin-top: 5%;
         margin-left: 50%;
         display: inline;
     }
     h1 {
-        font-size: 20vw;
+        font-size: 1200%;
         margin-left: -250px;
     }
     h2 {

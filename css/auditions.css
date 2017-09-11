@@ -33,7 +33,7 @@ body {
 }
 
 @media only screen
-and (max-device-width : 480px) {
+and (max-device-width : 800px) {
 
     * { box-sizing: border-box; }
     .video-background {
