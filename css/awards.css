@@ -144,25 +144,25 @@ and (max-device-width : 480px) {
 }
 
 .picture-2016 {
-    width: 100%;
+    width: 70%;
     margin-top: 30px;
     opacity: 0.7;
 }
 
 .picture-2015 {
-    width: 100%;
-    margin-top: 45px;
+    width: 70%;
+    margin-top: 5px;
     opacity: 0.7;
 }
 
 .picture-2013 {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 40px;
     opacity: 0.7;
 }
 
 .picture-2016-BB {
-    width: 95%;
+    width: 41%;
     margin-top: 30px;
     opacity: 0.7;
 }
