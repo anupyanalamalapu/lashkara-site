@@ -131,6 +131,13 @@ and (max-device-width : 480px) {
     opacity: 0.9;
 }
 
+.picture-freshman {
+    width: 85%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    opacity: 0.9;
+}
+
 .inline {
     display: inline;
 }

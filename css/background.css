@@ -181,6 +181,7 @@ body {
     font-family: Avenir;
     font-weight: 300;
     color: white;
+    display: flex;
 }
 
 h1 {
@@ -190,7 +191,7 @@ h1 {
 }
 
 h2 {
-    font-size: 19px;
+    font-size: 1.35vw;
     margin-right:10.5%;
 }
 
