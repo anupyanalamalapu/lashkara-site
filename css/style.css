@@ -102,5 +102,6 @@ and (max-device-width : 480px) {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        background-attachment: fixed;
     }
 }
