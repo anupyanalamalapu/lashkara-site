@@ -119,8 +119,8 @@ body {
 
 .photo {
     width: 100%;
-    border: 2px solid white;
-    border-radius: 100%;
+    /*border: 2px solid white;*/
+    /*border-radius: 10px;*/
     vertical-align: middle;
 }
 
@@ -231,7 +231,6 @@ body {
 .title-text {
     text-transform: uppercase;
     font-weight: bold;
-    text-decoration: underline;
     padding-top: 50px;
     font-size: 30px;
 }
