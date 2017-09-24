@@ -210,12 +210,26 @@ and (max-device-width : 800px) {
     margin-left: 16%;
     margin-top: -6.6%;
     text-align: left;
+    font-family: 'AvenirLTStd-Light';
+    font-weight: 300;
+    color: white;
+}
+
+.top-text {
+    font-family: 'AvenirLTStd-Light';
+    color: white;
 }
 
 .general-text {
     font-family: 'AvenirLTStd-Light';
     font-weight: 300;
     color: white;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.5;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
 .first-line {
@@ -234,8 +248,11 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
-    padding: 0 5%;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0 5%;   
+    font-weight: 700;
 }
 
 h4 {

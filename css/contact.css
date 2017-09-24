@@ -208,10 +208,15 @@ body {
     font-family: 'AvenirLTStd-Light';
     font-weight: 300;
     color: white;
+    letter-spacing: 1.5px;
 }
 
 .first-line {
     margin-top: 10 !important;
+}
+
+.icons {
+    margin-right: 10px;
 }
 
 .names {

@@ -110,6 +110,11 @@ body {
 
 .body-text {
     margin-top: 20px;
+    font-size: 17px;
+    width: 90%;
+    padding-left: 100px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
 }
 
 .photo {
@@ -221,6 +226,14 @@ body {
 
 .first-line {
     margin-top: 10 !important;
+}
+
+.title-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 50px;
+    font-size: 30px;
 }
 
 .names {

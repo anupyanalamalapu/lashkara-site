@@ -192,6 +192,16 @@ and (max-device-width : 800px) {
     margin-left: 30%;
 }
 
+.season-title {
+  text-decoration: underline;
+}
+
+.title-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .right-side {
     margin-right: 30%;
 }
@@ -226,8 +236,12 @@ and (max-device-width : 800px) {
 }
 
 .award-text {
-    margin-top: 10px;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
 }
+
+
 
 .page-title {
     margin-left: 16%;
