@@ -23,8 +23,8 @@ body {
     /* The image used */
     min-height: 110%;
     background: linear-gradient(
-                     rgba(0,0,0,0.8), 
-                     rgba(0,0,0,0.8)),
+                     rgba(0,0,0,0.85), 
+                     rgba(0,0,0,0.85)),
                      url("../photos/Mondavi.jpg");
     /* Center and scale the image nicely */
     background-position: center;
@@ -199,6 +199,16 @@ body {
     font-weight: 300;
     color: white;
     display: flex;
+}
+
+.general-text-body {
+    font-family: 'AvenirLTStd-Light';
+    color: white;
+    display: flex;
+    font-size: 16px; 
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 0.5px;
 }
 
 h1 {
