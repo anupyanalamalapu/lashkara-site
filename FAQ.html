@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title> UCD Lashkara </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/FAQ.css"/>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'/>
+        <link rel="shortcut icon" href="photos/logo.ico" type="image/x-icon">
+    </head>
+</html>
+<body>
+    <div class="video-background">
+        <div class="video-foreground" id="muteYouTubeVideoPlayer"></div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="/"><img src="photos/WhiteLogo.png" alt="navbarlogo" class="navbarlogo"></a>
+      <a href="background">Background</a>
+      <a href="performances">Performances</a>
+      <a href="awards">Awards</a>
+      <a href="sponsors">Sponsors</a>
+      <a href="auditions">Auditions</a>
+      <a href="team">Meet the Team</a>
+      <a href="FAQ">FAQ</a>
+      <a href="contact">Contact Us</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+
+    <div>
+        <span onmouseover="openNav()"><img src="photos/WhiteLogo.png" alt="navbarlogo" class="navbarlogo-detect"></span>
+        <h1 class="page-title top-text"> FAQ</h1>
+    </div>
+    <hr>
+    <div class="center">
+        <div class="black-box">
+          <h2 class="top-text"> ✶ I have never danced before, can I still audition? ✶ </h2>
+          <h2 class="general-text">YES OF COURSE! There is no experience necessary to joining our family! Sure, some dance experience wouldn’t hurt, but there have been a handful of people on our team who had never danced before joining Lashkara. We take full responsibility to train you to reach your potential and continue to grow throughout the year.</h2>
+          <h2 class="top-text"> ✶  If I make a mistake during the audition, will I not make it? ✶ </h2>
+          <h2 class="general-text">Nope! Captains are NOT looking for perfection - we are looking for dancers who are having fun, showing passion &amp; energy, and take critique and implement it. We do not expect the routine to be 100% perfect (I mean, we just taught it to you!) Don't let stage fright get to you! Do your best, smile, and have fun!</h2>
+          <h2 class="top-text"> ✶ Will I have the time for Lashkara? ✶ </h2>
+          <h2 class="general-text">Lashkara prides itself in being a team that has the most efficient, well run, and least time consuming practices. Compared to many teams, we do not practice as much. We place a heavy emphasis on academics first. Therefore, during preseason our practices are considerably short. As competition season rolls around, we increase the practice times, however not by much. Our practices are also later at night so it will never get in the way of classes!</h2>
+          <h2 class="top-text"> ✶ Do I audition alone? ✶ </h2>
+          <h2 class="general-text">Nope! We understand that dancing alone in front of the captains may be awkward/scary, so we do our auditions in groups of 3-4 people at once. That way, you feel more comfortable dancing!</h2>
+          <h2 class="top-text"> ✶ What if I can't attend the workshops? ✶ </h2>
+          <h2 class="general-text">Don't worry! The workshops are not mandatory; there will be an audition video with the tryout routines, so you can learn them on your own whenever you get the time. Our general team practices are at the same time as the workshops are though, so if it is a consistent problem, come talk to us!</h2>
+          <h2 class="top-text"> ✶ What if I have a school commitment on a Friday of a competition weekend? ✶ </h2>
+          <h2 class="general-text">We will always work around it! Your car will leave only after you've done what you need to for school.</h2>
+          <h2 class="top-text"> Is your question missing? Email us! We'll get right back to you :) </h2>
+          <a href="mailto:ucdlashkara@gmail.com"><i class="fa fa-envelope icons fa-4x" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script async src="https://www.youtube.com/iframe_api"></script>
+    <script>
+     function onYouTubeIframeAPIReady() {
+      var player;
+      var isUnMuted = false;
+      player = new YT.Player('muteYouTubeVideoPlayer', {
+        videoId: 'QnVoHEQwaus', // YouTube Video ID
+        width: 840,               // Player width (in px)
+        height: 474,              // Player height (in px)
+        playerVars: {
+          autoplay: 1,        // Auto-play the video on load
+          controls: 1,        // Show pause/play buttons in player
+          showinfo: 0,        // Hide the video title
+          modestbranding: 1,  // Hide the Youtube Logo
+          loop: 1,  
+          playlist: 'QnVoHEQwaus',      // Run the video in a loop
+          fs: 0,              // Hide the full screen button
+          cc_load_policy: 0, // Hide closed captions
+          iv_load_poliy: 3,  // Hide the Video Annotations
+          autohide: 1        // Hide video controls when playing
+        },
+        events: {
+          onReady: function(e) {
+            e.target.mute();
+          }
+        }
+      });
+     }
+    </script>
+</body>
