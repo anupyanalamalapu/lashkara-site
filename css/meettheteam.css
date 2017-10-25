@@ -260,6 +260,16 @@ and (max-device-width : 800px) {
     font-style: normal;
 }
 
+.first-line-new {
+    margin-top: 10 !important;
+    font-style: italic;
+    margin-bottom: 40 !important;
+}
+
+.captain-new {
+    margin-bottom: 40 !important;
+}
+
 .names {
     margin-bottom: -5px;
     margin-top: 10px;
